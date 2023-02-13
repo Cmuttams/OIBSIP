@@ -1,0 +1,31 @@
+body {margin: 0;padding: 0;font-family: Arial, sans-serif;}
+
+header {box-shadow: 0 2px 4px rgba(0,0,0,0.2);}
+
+nav ul {margin: 0;padding: 0;list-style: none;display: flex;justify-content: flex-end;}
+
+nav ul li {margin: 10px;}
+
+nav ul li a {color:black;text-decoration: none;font-size: 14px;}
+
+nav ul li a:hover {color:blue;}
+
+.dropdown {position: relative;display: inline-block;}
+
+.dropbtn {color:cyan blue;font-size: 14px;background-color: transparent;border:none;}
+
+.dropdown-content {display: none;position: absolute;z-index: 1;}
+
+.dropdown-content a {color:cyan blue;text-decoration: none;display: block;padding:10px;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+main {display: flex;flex-direction: column;align-items: center;justify-content: center;height: 100vh;}
+
+img {margin-bottom: 40px;}
+
+form {display: flex;}
+
+input[type=text] {padding: 10px;border: none;border-radius: 2px;width: 100%;box-shadow: 0 2px 4px rgba(0,0,0,0.2);}
+
+button[type=submit], button[type=button] {color:cyan blue;padding: 10px;border: none;border-radius: 2px;margin-left: 10px;cursor: pointer;box-shadow: 0 2px 4px rgba(0,0,0,0.2);}
